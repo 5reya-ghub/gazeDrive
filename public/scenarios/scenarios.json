@@ -1,0 +1,331 @@
+[
+  {
+    "id": "scenario_hazard_01",
+    "video_url": "/videos/00000.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_01.jpg",
+    "time_of_alert": 22.52,
+    "time_of_freeze": 25.02,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.0,
+        "y_min": 0.0736,
+        "x_max": 0.5273,
+        "y_max": 0.8069
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_02",
+    "video_url": "/videos/00003.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_02.jpg",
+    "time_of_alert": 13.6,
+    "time_of_freeze": 16.1,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.3539,
+        "y_min": 0.4625,
+        "x_max": 0.5266,
+        "y_max": 0.7431
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_03",
+    "video_url": "/videos/00004.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_03.jpg",
+    "time_of_alert": 9.1,
+    "time_of_freeze": 11.6,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.5422,
+        "y_min": 0.0194,
+        "x_max": 0.9992,
+        "y_max": 0.8611
+      },
+      {
+        "role": "secondary_hazard",
+        "x_min": 0.2984,
+        "y_min": 0.5486,
+        "x_max": 0.4672,
+        "y_max": 0.7958
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_04",
+    "video_url": "/videos/00005.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_04.jpg",
+    "time_of_alert": 18.97,
+    "time_of_freeze": 21.47,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.0,
+        "y_min": 0.4653,
+        "x_max": 0.6289,
+        "y_max": 0.9722
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_05",
+    "video_url": "/videos/00006.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_05.jpg",
+    "time_of_alert": 16.8,
+    "time_of_freeze": 19.3,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.1492,
+        "y_min": 0.5222,
+        "x_max": 0.5477,
+        "y_max": 0.8556
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_06",
+    "video_url": "/videos/00007.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_06.jpg",
+    "time_of_alert": 18.1,
+    "time_of_freeze": 20.6,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.125,
+        "y_min": 0.3542,
+        "x_max": 0.5484,
+        "y_max": 0.9167
+      },
+      {
+        "role": "secondary_hazard",
+        "x_min": 0.8695,
+        "y_min": 0.4319,
+        "x_max": 0.9688,
+        "y_max": 0.6569
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_07",
+    "video_url": "/videos/00008.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_07.jpg",
+    "time_of_alert": 30.7,
+    "time_of_freeze": 33.2,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.4922,
+        "y_min": 0.5319,
+        "x_max": 0.7484,
+        "y_max": 0.6931
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_08",
+    "video_url": "/videos/00010.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_08.jpg",
+    "time_of_alert": 18.2,
+    "time_of_freeze": 20.7,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.0023,
+        "y_min": 0.0,
+        "x_max": 0.982,
+        "y_max": 0.9875
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_09",
+    "video_url": "/videos/00013.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_09.jpg",
+    "time_of_alert": 17.1,
+    "time_of_freeze": 19.6,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.5703,
+        "y_min": 0.4764,
+        "x_max": 0.9578,
+        "y_max": 0.7653
+      },
+      {
+        "role": "secondary_hazard",
+        "x_min": 0.0031,
+        "y_min": 0.3361,
+        "x_max": 0.1586,
+        "y_max": 0.7778
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_10",
+    "video_url": "/videos/00014.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_10.jpg",
+    "time_of_alert": 32.5,
+    "time_of_freeze": 35.0,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.4562,
+        "y_min": 0.5542,
+        "x_max": 1.0,
+        "y_max": 0.9097
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_control_01",
+    "video_url": "/videos/01040.mp4",
+    "type": "control",
+    "freeze_frame": null,
+    "time_of_alert": null,
+    "time_of_freeze": null,
+    "reaction_window": null,
+    "hazard_bounding_boxes": [],
+    "ground_truth_rubric": {
+      "primary_agent": "none",
+      "primary_action": "none",
+      "secondary_agent": "none",
+      "secondary_action": "none",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "none",
+      "explanation": "Safe cruising condition maintained with no immediate hazards present."
+    }
+  },
+  {
+    "id": "scenario_control_02",
+    "video_url": "/videos/01041.mp4",
+    "type": "control",
+    "freeze_frame": null,
+    "time_of_alert": null,
+    "time_of_freeze": null,
+    "reaction_window": null,
+    "hazard_bounding_boxes": [],
+    "ground_truth_rubric": {
+      "primary_agent": "none",
+      "primary_action": "none",
+      "secondary_agent": "none",
+      "secondary_action": "none",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "none",
+      "explanation": "Safe cruising condition maintained with no immediate hazards present."
+    }
+  }
+]

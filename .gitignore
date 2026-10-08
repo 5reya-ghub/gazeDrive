@@ -29,3 +29,17 @@ __pycache__/
 *$py.class
 .venv/
 .env
+
+# Large Assets (Videos, Models, Datasets)
+public/videos/*
+*.mp4
+*.webm
+*.avi
+*.mov
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.h5

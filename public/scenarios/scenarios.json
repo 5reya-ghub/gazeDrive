@@ -1,59 +1,5 @@
 [
   {
-    "id": "scenario_hazard_01",
-    "video_url": "/videos/00000.mp4",
-    "type": "hazard",
-    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_01.jpg",
-    "time_of_alert": 22.52,
-    "time_of_freeze": 25.02,
-    "reaction_window": 2.5,
-    "hazard_bounding_boxes": [
-      {
-        "role": "primary_hazard",
-        "x_min": 0.0,
-        "y_min": 0.0736,
-        "x_max": 0.5273,
-        "y_max": 0.8069
-      }
-    ],
-    "ground_truth_rubric": {
-      "primary_agent": "car",
-      "primary_action": "sudden_braking",
-      "secondary_agent": "motorcycle",
-      "secondary_action": "lane_filtering",
-      "hazard_direction": "center_lane",
-      "ego_action_required": "emergency_brake",
-      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
-    }
-  },
-  {
-    "id": "scenario_hazard_02",
-    "video_url": "/videos/00003.mp4",
-    "type": "hazard",
-    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_02.jpg",
-    "time_of_alert": 13.6,
-    "time_of_freeze": 16.1,
-    "reaction_window": 2.5,
-    "hazard_bounding_boxes": [
-      {
-        "role": "primary_hazard",
-        "x_min": 0.3539,
-        "y_min": 0.4625,
-        "x_max": 0.5266,
-        "y_max": 0.7431
-      }
-    ],
-    "ground_truth_rubric": {
-      "primary_agent": "car",
-      "primary_action": "sudden_braking",
-      "secondary_agent": "motorcycle",
-      "secondary_action": "lane_filtering",
-      "hazard_direction": "center_lane",
-      "ego_action_required": "emergency_brake",
-      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
-    }
-  },
-  {
     "id": "scenario_hazard_03",
     "video_url": "/videos/00004.mp4",
     "type": "hazard",
@@ -278,6 +224,33 @@
         "y_min": 0.5542,
         "x_max": 1.0,
         "y_max": 0.9097
+      }
+    ],
+    "ground_truth_rubric": {
+      "primary_agent": "car",
+      "primary_action": "sudden_braking",
+      "secondary_agent": "motorcycle",
+      "secondary_action": "lane_filtering",
+      "hazard_direction": "center_lane",
+      "ego_action_required": "emergency_brake",
+      "explanation": "Lead vehicle brakes abruptly while an overtaking motorcycle limits evasive lane changes."
+    }
+  },
+  {
+    "id": "scenario_hazard_01",
+    "video_url": "/videos/00000.mp4",
+    "type": "hazard",
+    "freeze_frame": "/scenarios/frames/freeze_scenario_hazard_01.jpg",
+    "time_of_alert": 22.52,
+    "time_of_freeze": 25.02,
+    "reaction_window": 2.5,
+    "hazard_bounding_boxes": [
+      {
+        "role": "primary_hazard",
+        "x_min": 0.0,
+        "y_min": 0.0736,
+        "x_max": 0.5273,
+        "y_max": 0.8069
       }
     ],
     "ground_truth_rubric": {
